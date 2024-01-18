@@ -2,11 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>gallery</title>
   </head>
   <body>
-    <load ="partials/header.html" />
+    <form class="container">
+      <input class="input" type="text" placeholder="Search images...">
+      <button class="button" type="submit">Search</button>
+    </form>
+    <ul class="gallery">
+      <div class="loader"></div>
+    </ul>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
+
